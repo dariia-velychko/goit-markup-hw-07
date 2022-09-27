@@ -239,11 +239,11 @@ padding-top: 200px;
 padding-bottom: 200px;
 }
 
-.hero__container {
+/* .hero__container {
 display: flex;
 text-align: center;
 flex-direction: column;
-}
+} */
 
 .main-title {
 font-weight: 900;
@@ -259,7 +259,7 @@ margin-left: auto;
 margin-right: auto;
 }
 
-.hero__btn {
+/* .hero__btn {
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -284,7 +284,7 @@ margin-right: auto;
 
 .hero__btn--active:active {
 background-color: var(--button-color-active);
-}
+} */
 
 /* Features */
 
