@@ -1,36 +1,11 @@
-.hero {
-   
-    &__container {
-    display: flex;
-    text-align: center;
-    flex-direction: column;
-    }
+// Utils styles
 
-    &__btn {
-    transition-property: background-color;
-    transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    border: none;
-    cursor: pointer;
-    font-family: inherit;
-    background-color: var(--button-color-hero);
-    color: var(--hero-color);
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.88;
-    display: flex;
-    align-items: center;
-    letter-spacing: 0.06em;
-    border-radius: 4px;
-    padding: 10px 32px;
-    min-width: 216px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    }
+@import "./utils/vars";
+@import "./utils/reset";
+@import "./utils/base";
 
-    &__btn--active:active {
-    background-color: var(--button-color-active);
-    }
-
-}
+// Components styles
+@import "./components/header";
+@import "./components/logo";
+@import "./components/nav";
+@import "./components/hero";

@@ -6,25 +6,18 @@
 /* цвет кнопок 2196F3 */
 /* цвет кнопок портфолио неакт F5F4FA */
 
-:root {
-    /* Fonts */
+/* :root {
 
     --main-font: roboto, sans-serif;
     --logo-font: raleway, sans-serif;
-
-    /* Text colors */
 
     --primary-color: #212121;
     --secondary-color: #757575;
     --hero-color: #FFFFFF;
 
-    /* Background colors */
-
     --primary-bkgcolor: #FFFFFF;
     --secondary-bkgcolor: #2F303A;
     --body-bgk: #F5F5F5;
-
-    /* Others */
 
     --button-color-hero: #2196F3;
     --button-color: #F5F4FA;
@@ -35,13 +28,13 @@
     --contacts-footer: rgba(255, 255, 255, 0.6);
     --social-links: #AFB1B8;
 
-    /* ANIMATION */
-
     --type: cubic-bezier(0.4, 0, 0.2, 1);
     --time: 250ms;
-}
+} */
 
-.page {
+/* Base styles */
+
+/* .page {
 color: var(--primary-bkgcolo);
 background-color: var(--body-bgk);
 font-family: var(--main-font);
@@ -69,18 +62,19 @@ padding: 0;
 .section {
 padding: 94px 0;
 width: 100%;
-}
+} */
 
-/* IMAGES */
 
-img {
+
+/* img {
 display: block;
 max-width: 100%;
 height: auto;
-}
+} */
 
 /* HEADER */
-.header {
+
+/* .header {
 border-bottom: 1px solid #ECECEC;
 }
 
@@ -187,7 +181,7 @@ margin-right: 50px
 fill: currentColor;
 display: flex;
 gap: 10px;
-}
+} */
 
 
 
