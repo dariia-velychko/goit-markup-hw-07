@@ -1,8 +1,12 @@
 .header {
     border-bottom: 1px solid #ECECEC;
+    
+    &__container {
+    display: flex;
+    align-items: center;
     }
     
-    .header-group {
+    &__group {
     color: var(--secondary-color);
     font-weight: 500;
     line-height: 1.14;
@@ -10,19 +14,26 @@
     display: flex;
     align-items: center;
     }
+
+    &__item {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    }
+
+    &__link &__item {
+    display: block;
+    align-items: center;
+    }
+
+}
     
     .site-nav {
     display: flex;
     align-items: center;
     margin-right: auto;
     margin-left: 0;
-    }
-    
-    .header-item {
-    position: relative;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    }
+    }   
     
     .current::after {
     position: absolute;
@@ -41,23 +52,13 @@
     
     .active.current {
     color: var(--link-active)
-    }
+    }      
     
-    .header-container {
-    display: flex;
-    align-items: center;
-    }
-    
-    .header-link .header-item {
-    display: block;
-    align-items: center;
-    }
-    
-    .header-group .list-item + .list-item {
+    .header__group .list-item + .list-item {
     margin-left: auto;
     margin-right: 0;
     }
 
-    .header-group li {
+    .header__group li {
     margin-right: 50px
     }

@@ -1,4 +1,5 @@
-.register-form-title {
+.register-form {
+    &__title {
     display: block;
     text-align: center;
     margin-bottom: 12px;
@@ -7,18 +8,18 @@
     line-height: 1.15;
     letter-spacing: 0.03em;
     }
-    
-    .register-form-group {
+        
+    &__group {
     margin-bottom: 20px;
     }
-    
-    .register-form-field {
+        
+    &__field {
     position: relative;
     display: block;
     margin-bottom: 10px;
     }
-    
-    .register-form-label {
+        
+    &__label {
     display: block;
     font-weight: 400;
     font-size: 12px;
@@ -26,8 +27,8 @@
     letter-spacing: 0.01em;
     color: var(--secondary-color);
     }
-    
-    .register-form-input {
+        
+    &__input {
     width: 100%;
     height: 40px;
     padding-left: 42px;
@@ -38,37 +39,37 @@
     outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
-    .register-form-input:focus,
-    .register-form-input:hover {
+        
+    &__input:focus,
+    &__input:hover {
     border-color: var(--link-active);
     }
-    
-    .register-form-input:focus + .register-form-icon {
+        
+    &__input:focus + &__icon {
     fill: var(--link-active);
     }
-    
-    .register-form-input:hover + .register-form-icon {
+        
+    &__input:hover + &__icon {
     fill: var(--link-active);
     }
-    
-    .register-form-icon {
+        
+    &__icon {
     position: absolute;
     top: 65%;
     left: 10px;
     transform: translateY(-50%);
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
-    .register-form-desc {
+        
+    &__desc {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;    
     color: var(--secondary-color);    
     }
-    
-    .register-form-heading {
+        
+    &__heading {
     display: block;
     margin-bottom: 4px;
     font-weight: 400;
@@ -77,9 +78,9 @@
     letter-spacing: 0.01em;
     color: var(--secondary-color);
     }
-    
-    
-    .register-form-message {
+        
+        
+    &__message {
     display: block;
     width: 100%;
     height: 120px;
@@ -91,53 +92,43 @@
     font-size: 12px;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-    
-    .register-form-message:focus,
-    .register-form-message:hover {
+        
+    &__message:focus,
+    &__message:hover {
     border-color: var(--link-active);
     }
-    
-    .register-form-message::placeholder {
+        
+    &__message::placeholder {
     font-weight: 400;
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.01em;    
     color: rgba(117, 117, 117, 0.5);    
     }
-    
-    .register-form-agreement {
+        
+    &__agreement {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 8px;
     margin-bottom: 30px;
     }
-    
-    .register-form-link {
+        
+    &__link {
     color: var(--link-active);
     }
-    
-    .icon-checked {
-    opacity: 0;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .icon-unchecked {
-    opacity: 1;
-    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-    
-    .register-form-checkbox:checked + 
-    .register-form-icons .icon-checked {
+
+    &__checkbox:checked + 
+    &__icons .icon-checked {
     opacity: 1;
     }
     
-    .register-form-checkbox:checked + 
-    .register-form-icons .icon-unchecked {
+    &__checkbox:checked + 
+    &__icons .icon-unchecked {
     opacity: 0;
     }
     
-    .register-form-btn {
+   &__btn {
     display: block;
     margin: 0 auto;
     width: 200px;
@@ -157,7 +148,20 @@
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
     
-    .register-form-btn:hover,
-    .register-form-btn:focus {
+    &__btn:hover,
+    &__btn:focus {
     background-color: var(--button-color-active);
     }
+
+}
+
+    .icon-checked {
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-unchecked {
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }    
+   
