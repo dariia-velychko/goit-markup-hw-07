@@ -186,7 +186,7 @@ gap: 10px;
 
 
 /* Общие для ссылок */
-.link:hover,
+/* .link:hover,
 .link:focus {
 color: var(--link-active);
 }
@@ -216,11 +216,11 @@ padding-bottom: 32px;
 
 .active {
 color: var(--link-active);
-}
+} */
 
 /* HERO */
 
-.hero {
+/* .hero {
 background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url(./images/hero.jpg);
 background-color: var(--secondary-bkgcolor);
 max-width: 1600px;
@@ -231,7 +231,7 @@ margin-left: auto;
 margin-right: auto;
 padding-top: 200px;
 padding-bottom: 200px;
-}
+} */
 
 /* .hero__container {
 display: flex;
@@ -239,7 +239,7 @@ text-align: center;
 flex-direction: column;
 } */
 
-.main-title {
+/* .main-title {
 font-weight: 900;
 font-size: 44px;
 line-height: 1.36;
@@ -251,7 +251,7 @@ margin-bottom: 30px;
 width: 696px;
 margin-left: auto;
 margin-right: auto;
-}
+} */
 
 /* .hero__btn {
 transition-property: background-color;
@@ -282,12 +282,12 @@ background-color: var(--button-color-active);
 
 /* Features */
 
-.features {
+/* .features {
 background-color: var(--primary-bkgcolor);
 padding-bottom: 0;
 }
 
-.features-subtitle {
+.features__subtitle {
 font-weight: 700;
 font-size: 14px;
 line-height: 1.14;
@@ -326,11 +326,11 @@ width: 270px;
 height: 120px;
 background-color: var(--light-bgk);
 margin-bottom: 30px;
-}
+} */
 
 /* SERVICES */
 
-.services {
+/* .services {
 background-color: var(--primary-bkgcolor);
 }
 
@@ -373,11 +373,11 @@ width: 100%;
 height: 70px;
 right: 0;
 bottom: 0;
-}
+} */
 
 /* TEAM */
 
-.team-list {
+/* .team-list {
 display: flex;
 gap: 30px;
 }
@@ -413,9 +413,9 @@ text-align: center;
 line-height: 1.19;
 color: var(--secondary-color);
 margin-bottom: 16px;
-}
+} */
 
-.socials {
+/* .socials {
 display: flex;
 gap: 10px;
 justify-content: center;
@@ -447,11 +447,11 @@ fill: currentColor;
 transition-property: color, background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
 /* CLIENTS */
 
-.clients-list {
+/* .clients-list {
 display: flex;
 gap: 30px;
 justify-content: center;
@@ -487,10 +487,10 @@ transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 .clients-link:hover,
 .clients-link:focus {
 border: 1px solid var(--button-color-hero);
-}
+} */
 
 /* Footer */
-
+/* 
 .footer {
 background-color: var(--secondary-bkgcolor);
 padding-top: 60px;
@@ -509,7 +509,7 @@ line-height: 1.71;
 color: var(--hero-color);
 }
 
-.logo-footer {
+/* .footer-logo {
 display: block;
 padding: 0;
 margin-bottom: 20px;
@@ -642,7 +642,7 @@ border-color: var(--link-active);
 
 
 /* Portfolio Buttons */
-.filters {
+/* .filters {
 display: flex;
 justify-content: center;
 margin-bottom: 50px;
@@ -677,10 +677,10 @@ padding: 6px 25px;
 background-color: var(--link-active);
 color: var(--hero-color);
 filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-}
+} */
 
 /* Portfolio Projects */
-.page-body {
+/* .page-body {
 background-color: var(--hero-color);
 }
 
@@ -771,11 +771,11 @@ opacity: 0;
 .portfolio-link:focus.overlay {
 transform: translateY(0);
 opacity: 1;    
-}
+} */
 
 /* MODAL WINDOW */
 
-.backdrop {
+/* .backdrop {
 position: fixed;
 top: 0;
 left: 0;
@@ -832,11 +832,11 @@ font-weight: 400;
 font-size: 12px;
 line-height: 1.16;
 letter-spacing: 0.01em;
-}
+} */
 
 /* REGISTER FORM */
 
-.register-form-title {
+/* .register-form-title {
 display: block;
 text-align: center;
 margin-bottom: 12px;
@@ -998,9 +998,9 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 .register-form-btn:hover,
 .register-form-btn:focus {
 background-color: var(--button-color-active);
-}
+} */
 
-.visually-hidden {
+/* .visually-hidden {
 position: absolute;
 white-space: nowrap;
 width: 1px;
@@ -1011,6 +1011,6 @@ padding: 0;
 clip: rect(0 0 0 0);
 clip-path: inset(50%);
 margin: -1px;
-}
+} */
 
 

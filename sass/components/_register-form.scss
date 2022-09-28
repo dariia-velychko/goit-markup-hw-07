@@ -1,0 +1,163 @@
+.register-form-title {
+    display: block;
+    text-align: center;
+    margin-bottom: 12px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.15;
+    letter-spacing: 0.03em;
+    }
+    
+    .register-form-group {
+    margin-bottom: 20px;
+    }
+    
+    .register-form-field {
+    position: relative;
+    display: block;
+    margin-bottom: 10px;
+    }
+    
+    .register-form-label {
+    display: block;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color);
+    }
+    
+    .register-form-input {
+    width: 100%;
+    height: 40px;
+    padding-left: 42px;
+    padding-right: 42px;
+    margin-top: 4px;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    outline: transparent;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .register-form-input:focus,
+    .register-form-input:hover {
+    border-color: var(--link-active);
+    }
+    
+    .register-form-input:focus + .register-form-icon {
+    fill: var(--link-active);
+    }
+    
+    .register-form-input:hover + .register-form-icon {
+    fill: var(--link-active);
+    }
+    
+    .register-form-icon {
+    position: absolute;
+    top: 65%;
+    left: 10px;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .register-form-desc {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;    
+    color: var(--secondary-color);    
+    }
+    
+    .register-form-heading {
+    display: block;
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;
+    color: var(--secondary-color);
+    }
+    
+    
+    .register-form-message {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding: 18px;
+    resize: none;
+    outline: transparent;
+    border: 1px solid rgba(33, 33, 33, 0.2);
+    border-radius: 4px;
+    font-size: 12px;
+    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .register-form-message:focus,
+    .register-form-message:hover {
+    border-color: var(--link-active);
+    }
+    
+    .register-form-message::placeholder {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.01em;    
+    color: rgba(117, 117, 117, 0.5);    
+    }
+    
+    .register-form-agreement {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin-bottom: 30px;
+    }
+    
+    .register-form-link {
+    color: var(--link-active);
+    }
+    
+    .icon-checked {
+    opacity: 0;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .icon-unchecked {
+    opacity: 1;
+    transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .register-form-checkbox:checked + 
+    .register-form-icons .icon-checked {
+    opacity: 1;
+    }
+    
+    .register-form-checkbox:checked + 
+    .register-form-icons .icon-unchecked {
+    opacity: 0;
+    }
+    
+    .register-form-btn {
+    display: block;
+    margin: 0 auto;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 712px;
+    border: none;
+    border-radius: 4px;
+    background-color: var(--button-color-hero);
+    color: var(--primary-bkgcolor);
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    }
+    
+    .register-form-btn:hover,
+    .register-form-btn:focus {
+    background-color: var(--button-color-active);
+    }
