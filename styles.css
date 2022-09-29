@@ -34,8 +34,8 @@
 
 
 /* Base styles */
-
-/* .page {
+/* 
+.page {
 color: var(--primary-bkgcolo);
 background-color: var(--body-bgk);
 font-family: var(--main-font);
@@ -63,11 +63,11 @@ padding: 0;
 .section {
 padding: 94px 0;
 width: 100%;
-} */
+}
 
 
 
-/* img {
+img {
 display: block;
 max-width: 100%;
 height: auto;
@@ -252,9 +252,9 @@ margin-bottom: 30px;
 width: 696px;
 margin-left: auto;
 margin-right: auto;
-} */
+}
 
-/* .hero__btn {
+.hero__btn {
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -327,7 +327,7 @@ width: 270px;
 height: 120px;
 background-color: var(--light-bgk);
 margin-bottom: 30px;
-} */
+}
 
 /* SERVICES */
 
@@ -374,7 +374,7 @@ width: 100%;
 height: 70px;
 right: 0;
 bottom: 0;
-} */
+}  */
 
 /* TEAM */
 
@@ -414,9 +414,9 @@ text-align: center;
 line-height: 1.19;
 color: var(--secondary-color);
 margin-bottom: 16px;
-} */
+}
 
-/* .socials {
+.socials {
 display: flex;
 gap: 10px;
 justify-content: center;
@@ -491,8 +491,8 @@ border: 1px solid var(--button-color-hero);
 } */
 
 /* Footer */
-/* 
-.footer {
+
+/* .footer {
 background-color: var(--secondary-bkgcolor);
 padding-top: 60px;
 padding-bottom: 60px;
@@ -510,7 +510,7 @@ line-height: 1.71;
 color: var(--hero-color);
 }
 
-/* .footer-logo {
+.footer-logo {
 display: block;
 padding: 0;
 margin-bottom: 20px;
@@ -640,7 +640,7 @@ fill: currentColor;
 .input-footer:hover {
 border-color: var(--link-active);
 }
-
+ */
 
 /* Portfolio Buttons */
 /* .filters {
