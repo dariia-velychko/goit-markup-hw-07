@@ -317,32 +317,32 @@
                 <h2 class="section-title">Постійні клієнти</h2>
                 <ul class="list clients__list">
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
+                        <div class="clients-block"><a class="clients__link link" href="">
                             <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo"></use></svg>
                         </a></div>
                     </li>
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
+                        <div class="clients-block"><a class="clients__link link" href="">
                             <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo-1"></use></svg>
                         </a></div>
                     </li>
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
-                            <svg class="clients__icon" width="106" height="60"> class="" width="41px" height="47px"<use href="./images/icons.svg#icon-Logo-2"></use></svg>
+                        <div class="clients-block"><a class="clients__link link" href="">
+                            <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo-2"></use></svg>
                         </a></div>
                     </li>
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
+                        <div class="clients-block"><a class="clients__link link" href="">
                             <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo-3"></use></svg>
                         </a></div>
                     </li>
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
+                        <div class="clients-block"><a class="clients__link link" href="">
                             <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo-4"></use></svg>
                         </a></div>
                     </li>
                     <li class="list-item clients__item">
-                        <div class="clients-block"><a class="clients__link link" href="" width="170px" heighth="92px">
+                        <div class="clients-block"><a class="clients__link link" href="">
                             <svg class="clients__icon" width="106" height="60"><use href="./images/icons.svg#icon-Logo-5"></use></svg>
                         </a></div>
                     </li>
@@ -364,8 +364,7 @@
             </address>
             </div>        
         
-        <div class="social-links-block">
-            <ul class="footer__social-list">
+        <div class="social-links-block">        
             <p class="social-links-title">приєднуйтесь</p>
             <ul class="list footer__social-links">
                 <li class="list-item socials-item">
@@ -407,15 +406,14 @@
                                         <use href="./images/icons.svg#icon-linkedin"></use>
                         </svg>
                     </a>
-                </li></ul>
-        </ul>     
+                </li></ul>            
     </div>
-    <div class="footer__send-mail">
-        <form>
+    
+        <form class="footer__send-mail">
             <strong class="footer__title">Підпишіться на розсилку</strong>
-            <label for="mail-footer">
             <div class="footer__send-block">
-                <input  class="footer__input" type="text" placeholder="E-mail" name="mail-footer">
+            <label for="mail-footer">            
+                <input  class="footer__input" type="text" placeholder="E-mail" name="mail-footer" id="mail-footer">
             </label>
             <button class="footer__btn" type="submit">
             Підписатися
@@ -423,11 +421,9 @@
                 <use href="./images/icons.svg#icon-icon-send"></use>
             </svg>
             </button>
+            </div>
+        </form>        
         </div>
-        </form>
-        
-    </div>
-</div>
     </footer>
 
     <!-- MODAL WINDOW -->
@@ -473,7 +469,7 @@
                 
                     <label class="register-form__field" for="user-comment">
                         <span class="register-form__heading">Коментар</span>
-                        <textarea class="register-form__message" name="" rows="5" placeholder="Введіть текст"></textarea>
+                        <textarea class="register-form__message" id="user-comment" name="user-comment" rows="5" placeholder="Введіть текст"></textarea>
                     </label>
                 </div>
 
